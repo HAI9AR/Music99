@@ -30,7 +30,7 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ تم اعاده تشغيل موسيقى سورس جيبثون")
+    await loli.edit("**✅ تم اعاده تشغيل موسيقى سورس الكرار")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 @Client.on_message(filters.command(["الاوامر"], prefixes=f"{HNDLR}"))
@@ -39,7 +39,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 اهلا {m.from_user.mention}!
 
-𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 [ 𝘫𝘦𝘱𝘵𝘩𝘰𝘯 ](t.me/HAI8AR)
+𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 [ 𝙃𝘼𝙄𝘿𝘼𝙍 ༒ 𝘼𝙇𝙆𝙍𝘼𝙍 ](t.me/HAI9AR)
 ——————×—————
 
 ⧉ | لتشغيل صوتية في المكالمة أرسل ⇦ [ `{HNDLR}تشغيل  + اسم الاغنية` ]
