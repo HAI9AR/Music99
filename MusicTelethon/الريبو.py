@@ -39,7 +39,7 @@ async def help(client, m: Message):
     HELP = f"""
 <b>👋 اهلا {m.from_user.mention}!
 
-𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 [ 𝘫𝘦𝘱𝘵𝘩𝘰𝘯 ](t.me/lMl10l)
+𝘰𝘳𝘥𝘦𝘳𝘴 𝘮𝘶𝘴𝘪𝘤 [ 𝘫𝘦𝘱𝘵𝘩𝘰𝘯 ](t.me/HAI8AR)
 ——————×—————
 
 ⧉ | لتشغيل صوتية في المكالمة أرسل ⇦ [ `{HNDLR}تشغيل  + اسم الاغنية` ]
