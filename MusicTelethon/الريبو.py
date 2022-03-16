@@ -67,7 +67,7 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋  اهلا {m.from_user.mention}!
 
-🎶 هذا ميوزك جيبثون @jepthon
+🎶 هذا ميوزك الكرار @hussain_haidar
 
 """
     await m.reply(REPO, disable_web_page_preview=True)
